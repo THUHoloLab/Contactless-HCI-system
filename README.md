@@ -18,7 +18,7 @@ Display device: liquid-crystal SLM （GAEA-2, Holoeye is utilized here）
   
 * Run "reconstruction.m" to calculate holograms.
   
-* Run "run.py" to form a user-interctive 3D virtual keyboard. The Leap Motion and the SLM are controlled in a synchronous way.
+* Run "run.py" to establish a user-interctive 3D virtual keyboard. The Leap Motion and the SLM are controlled in a synchronous way.
 
 ## Contact
 If you have any questions, please contact Yixin Yang (yangyx20@mails.tsinghua.edu.cn)
