@@ -3,15 +3,22 @@ Authors: Yixin Yang (yangyx20@mails.tsinghua.edu.cn), Yunhui Gao (gyh21@mails.ts
 
 ## Synopsis
 A contactless human-computer interaction system based on three-dimensional holographic display and gesture recognition.
-A hand-tracking sensor is used to collect the user’s gestures and fingertip positions as input. A spatial light modulator (SLM) is utilized to generate the corresponding holographic 3D display images.
+
+A hand-tracking sensor is used to collect the user’s gestures and fingertip positions as input.
+
+A spatial light modulator (SLM) is utilized to generate the corresponding holographic 3D display images.
 
 ## Devices
-Hand-tracking: Leap Motion
-Display: liquid-crystal spatial light modulator （Here we utilized GAEA-2, Holoeye）
+Hand-tracking sensor: Leap Motion
+
+Display device: liquid-crystal spatial light modulator （GAEA-2, Holoeye is utilized here）
 
 ## Usage
-Run "run.py" to form a user-interctive 3D virtual keyboard.
-The Leap Motion and the spacial light modulator are controlled in a synchronous way.
+* The folder "object" contains the designed 3D display patterns.
+  
+* Run "reconstruction.m" to calculate holograms.
+  
+* Run "run.py" to form a user-interctive 3D virtual keyboard. The Leap Motion and the spacial light modulator are controlled in a synchronous way.
 
 ## Contact
 If you have any questions, please contact Yixin Yang (yangyx20@mails.tsinghua.edu.cn)
